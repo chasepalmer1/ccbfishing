@@ -9,29 +9,29 @@ body {
     margin-right: 7%;
     background-color: #b7bab1;
     border-radius: 10px;
-    height: 100em;
+    height: fit-content;
     padding: 1% 2% 2% 2%;
+    font-size: max(1.5vw, 12px);
 }
 
 .logo {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: max(3.5vw, 30px);
+    height: max(3.5vw, 30px);
 }
 
 header {
-    border-radius: 10px;
-    display: flex;
+    padding-bottom: 1%;
+    display: inline-flex;
     align-items: center;
-    justify-content: left;
     gap: 2%;
-    width: 80%;
+    width: 100%;
+    border-bottom: solid 1px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    font-size: 20px;
     background-color: #cecece;
     width: 15%;
     min-width: 150px;
@@ -80,7 +80,6 @@ header {
     flex-direction: row;
     background-color: #e2e6c050;
     width: 100%;
-    font-size: 1.25em;
     font-weight: 5px;
 }
 
@@ -95,7 +94,12 @@ header {
     margin-left: 5%;
 }
 
-.intro:hover 
-.intro-image{
-    width: 21%;
+.intro:hover
+.intro-image {
+    border-radius: 10px;
+    scale: 1.06 1.06;
+}
+
+#ccb-insta:hover {
+    scale: 1.1 1.1;
 }
