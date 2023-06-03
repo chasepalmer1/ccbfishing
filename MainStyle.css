@@ -110,9 +110,20 @@ h2 {
     padding-top: 2%;
     background-color: #b7bab1;
     border-top: solid 1px;
+    padding-bottom: 2%;
+    border-bottom: solid 1px;
 }
 
 #about-us-text {
-    width: 50%;
     padding-left: 5%;
+}
+
+@media screen and (max-width: 500px) {
+    #about-us {
+        flex-direction: column;
+    }
+
+    #about-us-image {
+        padding-left: 5%;
+    }
 }

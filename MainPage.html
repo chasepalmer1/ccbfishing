@@ -12,20 +12,21 @@
         <div class="dropdown" style="display: inline-block;">
             <img class="logo" src="resources/CCB.png" alt="Image">
             <div class="dropdown-content">
-                <a href="#">Home</a>
+                <a href="#.dropdown">Home</a>
                 <a href="#">Fishing</a>
                 <a href="#">Off-Roading</a>
                 <a href="#">Camping</a>
                 <a href="#">Projects</a>
-                <a href="#">About Us</a>
+                <a href="#about-us">About Us</a>
                 <a href="#">Profiles</a>
             </div>
         </div>
         <h1 style="font-size: max(1.5vw, 12px); font-weight: 30; font-style: italic;">CCB Fishing</h1>
-        <svg id="ccb-insta" xmlns="http://www.w3.org/2000/svg" width="max(3.5%, 20px)" height="max(3.5%, 20px)" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linejoin="round" stroke-width="4" 
-            d="M34 6H14a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h20a8 8 0 0 0 8-8V14a8 8 0 0 0-8-8Z"/><path stroke="currentColor" stroke-linejoin="round" 
-            stroke-width="4" d="M24 32a8 8 0 1 0 0-16a8 8 0 0 0 0 16Z"/><path fill="currentColor" d="M35 15a2 2 0 1 0 0-4a2 2 0 0 0 0 4Z"/></g>
-        </svg>
+            <svg id="ccb-insta" onclick="location.href='https://instagram.com/ccb.fishing?igshid=NTc4MTIwNjQ2YQ==';" xmlns="http://www.w3.org/2000/svg" width="max(3.5%, 20px)" height="max(3.5%, 20px)" viewBox="0 0 48 48">
+                <g fill="none"><path stroke="currentColor" stroke-linejoin="round" stroke-width="4" 
+                d="M34 6H14a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h20a8 8 0 0 0 8-8V14a8 8 0 0 0-8-8Z"/><path stroke="currentColor" stroke-linejoin="round" 
+                stroke-width="4" d="M24 32a8 8 0 1 0 0-16a8 8 0 0 0 0 16Z"/><path fill="currentColor" d="M35 15a2 2 0 1 0 0-4a2 2 0 0 0 0 4Z"/></g>
+            </svg>
         </header>
     <div class="intro page-section">
         <div class="intro-text">
@@ -54,9 +55,13 @@
     <div id="about-us">
         <div id="about-us-text">
             <h2 style="margin-top: 0; margin-bottom: 0;">About Us</h2>
-            <p style="margin-top: 2%; font-size: max(0.8vm, 7px);" >We are CCB Fishing!</p>
+            <p style="margin-top: 2%; font-size: max(1.25vw, 7px);" >Based out of Cobb County Georgia, we have been fishing and enjoying
+            the outdoors our whole lives.  Through our affinity for ripping lips, we decided to start an instagram page during the 
+            quarantine in 2020.  Since then, we have ammassed over 2000 followers on instagram and consistently post our favorite catches
+            3 years later.  Whether fishing on the water, tearing up some trails, or camping in the woods, we love to get outdoors 
+            every opportunity we get and document our experiences!</p>
         </div>
-        <img src="resources/Lake.jpg" style="width: 50%; border-radius: 5px;">
+        <img id="about-us-image" src="resources/Lake.jpg" style="width: 50%; border-radius: 5px; height: max-content;">
     </div>
 </body>
 </html>
