@@ -117,3 +117,21 @@ h2 {
         flex-direction: column;
     }
 }
+
+#profiles {
+
+    padding-top: 2%;
+    margin-top: 2%;
+    border-top: solid 1px;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    flex-wrap: wrap;
+}
+
+.profile {
+    padding: 2%;
+    border-radius: 5px;
+    height: 200px;
+    background-color: #e2e6c050;
+}
