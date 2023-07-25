@@ -1,0 +1,9 @@
+#profiles {
+    padding-top: 2%;
+    margin-top: 2%;
+    border-top: solid 1px;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    flex-wrap: wrap;
+}

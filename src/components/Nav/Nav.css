@@ -1,0 +1,11 @@
+.logo {
+    display: block;
+    width: max(3.5vw, 30px);
+    height: max(3.5vw, 30px);
+}
+
+
+
+#ccb-insta:hover {
+    scale: 1.1 1.1;
+}

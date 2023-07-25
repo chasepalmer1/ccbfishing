@@ -1,0 +1,22 @@
+.page-section {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e6c050;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.intro-image {
+    width: 20%;
+}
+
+.intro-text {
+    width: 80%;
+    margin-left: 5%;
+}
+
+.intro:hover
+.intro-image {
+    border-radius: 10px;
+    scale: 1.06 1.06;
+}

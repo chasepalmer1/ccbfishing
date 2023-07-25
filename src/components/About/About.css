@@ -1,0 +1,14 @@
+#about-us {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    background-color: #b7bab1;
+    padding-bottom: 2%;
+    border-bottom: solid 1px;
+}
+
+@media screen and (max-width: 500px) {
+    #about-us {
+        flex-direction: column;
+    }
+}
