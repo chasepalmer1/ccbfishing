@@ -1,6 +1,10 @@
 .profile {
-    padding: 2%;
     border-radius: 5px;
-    height: 200px;
+    height: max(220px, 30vw);
     background-color: #e2e6c050;
+}
+
+.image:hover {
+    border-radius: 10px;
+    scale: 1.06 1.06;
 }

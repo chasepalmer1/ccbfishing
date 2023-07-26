@@ -2,17 +2,17 @@ export const profiles =
 [
     {
         "name": "Chase",
-        "imgUrl": "",
+        "imgUrl": "IMG_7814.JPG",
         "description": ""
     },
     {
         "name": "Connor",
-        "imgUrl": "",
+        "imgUrl": "IMG_5657.jpg",
         "description": ""
     },
     {
         "name": "Braden",
-        "imgUrl": "",
+        "imgUrl": "IMG_9415.jpg",
         "description": ""
     }
 ]

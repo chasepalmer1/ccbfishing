@@ -15,15 +15,15 @@ const Main = () => {
 
             <About/>
 
-            <Section h2={"Fishing"} goTo={"/fishing"} image={"~/public/resources/IMG_7811.jpg"}/>
-            <Section h2={"Off-Roading"} goTo={"/off-roading"} image={"../../public/resources/IMG_0618.JPG"}/>
-            <Section h2={"Camping"} goTo={"/camping"} image={"../../public/resources/IMG_1707.jpg"}/>
-            <Section h2={"Projects"} goTo={"/projects"} image={"../../public/resources/IMG_1677.jpg"}/>
+            <Section h2={"Fishing"} goTo={"/fishing"} image={"IMG_7811.jpg"}/>
+            <Section h2={"Off-Roading"} goTo={"/off-roading"} image={"IMG_0618.JPG"}/>
+            <Section h2={"Camping"} goTo={"/camping"} image={"IMG_1707.jpg"}/>
+            <Section h2={"Projects"} goTo={"/projects"} image={"IMG_1677.jpg"}/>
 
             <div id="profiles">
-                <Profile alt={"Nothing to see here"} name={profiles[0].name} src={''}/>
-                <Profile alt={"Nothing to see here"} name={profiles[1].name} src={''}/>
-                <Profile alt={"Nothing to see here"} name={profiles[2].name} src={''}/>
+                <Profile alt={"Nothing to see here"} name={profiles[0].name} src={profiles[0].imgUrl}/>
+                <Profile alt={"Nothing to see here"} name={profiles[1].name} src={profiles[1].imgUrl}/>
+                <Profile alt={"Nothing to see here"} name={profiles[2].name} src={profiles[2].imgUrl}/>
             </div>
 
         </div>
