@@ -2,6 +2,7 @@
     border-radius: 5px;
     height: max(220px, 30vw);
     background-color: #e2e6c050;
+    border: 1px solid;
 }
 
 .image:hover {
