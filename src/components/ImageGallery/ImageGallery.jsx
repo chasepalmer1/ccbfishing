@@ -2,8 +2,6 @@ import React from 'react';
 import './ImageGallery.css';
 
 const ImageGallery = (props) => {
-    
-    const type = props.type; 
 
     function loadImages(name) {
         if (name === 'fishing') {
@@ -30,7 +28,7 @@ const ImageGallery = (props) => {
 
     return (
         <div className={"pictureList"} style={{width: '100%'}}>
-            {loadImages(type).map((image, index) => (
+            {loadImages(props.type).map((image, index) => (
                 <img className={"images"} key={index} src={image} alt={`images-${index}`}/>   
             ))}
         </div>
