@@ -12,7 +12,7 @@ export const profiles =
     },
     {
         "name": "Braden",
-        "imgUrl": "IMG_9415.jpg",
+        "imgUrl": "Braden.jpg",
         "description": ""
     }
 ]

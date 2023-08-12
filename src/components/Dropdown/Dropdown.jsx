@@ -26,10 +26,6 @@ const Content = [
     {
         to: "/projects",
         content: "Projects"
-    },
-    {
-        to: "/profiles",
-        content: "Profiles"
     }
 ]
 
@@ -37,7 +33,7 @@ const Dropdown = () => {
     
     return (
         <div className="dropdown" style={{display: "inline-block"}}>
-            <img className="logo" src={process.env.PUBLIC_URL + "/resources/CCB.png"} alt="this is an mage"/>
+            <img className="logo" src={process.env.PUBLIC_URL + "/resources/CCB.png"} alt="this is an image"/>
             <div className="dropdown-content">
                 {Content.map((item, content) => {return <Link to={item.to} key={content}>{item.content}</Link>})}
             </div>
