@@ -2,17 +2,37 @@ import React from 'react';
 import './ImageGallery.css';
 
 const ImageGallery = (props) => {
+    
+    const type = props.type; 
 
-    const name = '../../../public/resources/' + props.type;
-    const images = require.context('../../../public/resources/fishing', true);
-    const fishing = images.keys().map(image => images(image));
+    function loadImages(name) {
+        if (name === 'fishing') {
+            const images = require.context('../../../public/resources/fishing', true);
+            const imageArray = images.keys().map(image => images(image));
+            return imageArray;
+        }
+        if (name === 'offroading') {
+            const images = require.context('../../../public/resources/offroading', true);
+            const imageArray = images.keys().map(image => images(image));
+            return imageArray;
+        }
+        if (name === 'camping') {
+            const images = require.context('../../../public/resources/camping', true);
+            const imageArray = images.keys().map(image => images(image));
+            return imageArray;
+        }
+        if (name === 'projects') {
+            const images = require.context('../../../public/resources/projects', true);
+            const imageArray = images.keys().map(image => images(image));
+            return imageArray;
+        }
+    }
 
     return (
-        <div className="pictureList" style={{width: '100%'}}>
-            {fishing.map((image, index) => (
-                <img className={"images"} key={index} src={image} alt={`image-${index}`} />
+        <div className={"pictureList"} style={{width: '100%'}}>
+            {loadImages(type).map((image, index) => (
+                <img className={"images"} key={index} src={image} alt={`image-${index}`}/>   
             ))}
-            <h2>{name}</h2>
         </div>
     )
 

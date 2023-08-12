@@ -5,6 +5,12 @@
     border: 1px solid;
 }
 
+.images:active{
+    scale: 2;
+    object-fit: contain;
+    border: none;
+}
+
 .pictureList {
     display: flex;
     flex-wrap: wrap;
