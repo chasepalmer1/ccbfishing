@@ -33,7 +33,7 @@ const Dropdown = () => {
     
     return (
         <div className="dropdown" style={{display: "inline-block"}}>
-            <img className="logo" src={process.env.PUBLIC_URL + "/resources/CCB.png"} alt="this is an image"/>
+            <img className="logo" src={process.env.PUBLIC_URL + "/resources/CCB.png"} alt="there is supposed to be something here i think"/>
             <div className="dropdown-content">
                 {Content.map((item, content) => {return <Link to={item.to} key={content}>{item.content}</Link>})}
             </div>

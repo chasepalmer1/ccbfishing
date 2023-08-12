@@ -5,7 +5,7 @@ const About = (props) => {
 
     return (
         <div id='about-us'>
-            <div id='about-us-text' style={{width: "50%"}}>
+            <div id='about-us-text'>
                 <h2 style={{marginTop: 0, marginBottom: 0}}>About Us</h2>
                 <p style={{marginTop: "2%", marginRight: "10px", fontSize: "max(1.25vw, 9px)"}} >Based out of Cobb County Georgia, we have been fishing and enjoying
                 the outdoors our whole lives.  Through our affinity for ripping lips, we decided to start an instagram page during the 

@@ -9,3 +9,9 @@
     border-radius: 10px;
     scale: 1.06 1.06;
 }
+
+a::before ,a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

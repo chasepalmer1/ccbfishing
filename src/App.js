@@ -4,8 +4,6 @@ import Main from './Pages/Main';
 import Photos from './Pages/Photos';
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import Profile from './components/Profile/Profile';
-import Nav from './components/Nav/Nav';
 
 function App() {
   return (

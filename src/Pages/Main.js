@@ -21,9 +21,9 @@ const Main = () => {
             <Section h2={"Projects"} goTo={"/projects"} image={"IMG_1677.jpg"}/>
 
             <div id="profiles">
-                <Profile alt={"Nothing to see here"} name={profiles[0].name} src={profiles[0].imgUrl}/>
-                <Profile alt={"Nothing to see here"} name={profiles[1].name} src={profiles[1].imgUrl}/>
-                <Profile alt={"Nothing to see here"} name={profiles[2].name} src={profiles[2].imgUrl}/>
+                <Profile alt={"Nothing to see here"} name={profiles[0].name} src={profiles[0].imgUrl} link={profiles[0].instaLink}/>
+                <Profile alt={"Nothing to see here"} name={profiles[1].name} src={profiles[1].imgUrl} link={profiles[1].instaLink}/>
+                <Profile alt={"Nothing to see here"} name={profiles[2].name} src={profiles[2].imgUrl} link={profiles[2].instaLink}/>
             </div>
 
         </div>

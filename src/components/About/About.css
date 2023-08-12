@@ -11,4 +11,12 @@
     #about-us {
         flex-direction: column;
     }
+
+    div > #about-us-text {
+        width: 100%;
+    }
+}
+
+#about-us-text {
+    width: 50%
 }

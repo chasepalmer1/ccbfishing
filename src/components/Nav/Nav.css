@@ -9,3 +9,9 @@
 #ccb-insta:hover {
     scale: 1.1 1.1;
 }
+
+a::before, a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
