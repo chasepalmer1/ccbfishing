@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <header>
             <Dropdown/>
-            <h1 style={{fontSize: "max(1.5vw, 12px)", fontWeight: 30, fontStyle: "italic"}}>CCB Fishing</h1>
+            <h1 style={{fontSize: "max(1.5vw, 12px)", fontWeight: 30, fontStyle: "italic"}}>CCB Outdoors</h1>
             <a href={"https://instagram.com/ccb.fishing"} style={{width: "max(3.5%, 20px)", height: "max(3.5%, 20px)"}}>
                 <svg id="ccb-insta" href={"https://instagram.com/ccb.fishing"} target="_blank" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48">
                     <g fill="none"><path stroke="currentColor" strokeLinejoin="round" strokeWidth="4" 
